@@ -75,7 +75,7 @@ let languages =
 
 
 
-let Tegs = document.querySelectorAll('.a')
+const Tegs = document.querySelectorAll('.a')
 let title = document.querySelector('.title')
 let buttonRegister = document.querySelector('.btn')
 let local = localStorage.getItem('selectedlanguage') || 'ka' 
